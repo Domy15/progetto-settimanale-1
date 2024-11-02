@@ -17,6 +17,7 @@ body{
     font-family: "Open Sans", sans-serif;
     line-height: 1.65;
     font-size: 1.2rem;
+    font-weight: 500;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -53,11 +54,11 @@ h1{
 .div1{
     background-image: url(/assets/images/banner.jpg);
     background-size: cover;
-    padding: 10%;
+    padding: 15%;
 }
 
 .div2{
-    padding: 10%;
+    padding: 15%;
 }
 
 .div3{
@@ -67,7 +68,7 @@ h1{
 }
 
 .div4{
-    padding: 10%;
+    padding: 6%;
 }
 
 .div2 img{
@@ -90,7 +91,8 @@ h1{
 .div3 h2{
     font-family: "Montserrat", sans-serif;;
     color: white;
-    padding: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     font-weight: 700;
     font-size: xx-large;
 }
@@ -98,9 +100,69 @@ h1{
 .div3 blockquote{
     font-size: 1.1rem;
     font-style: italic;
+    padding-bottom: 5%;
 }
 
 .div3 p{
     font-size: 0.8rem;
 }
 
+.div4 div{
+    border: 1px solid #dee1e3;
+    margin-top: 10%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.lastimg{
+    margin-bottom: 15%;
+}
+
+.div4 img{
+    width: 100%;
+}
+
+.div4 h4{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.div4 p{
+    padding-bottom: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+footer{
+    color: #c8e7f0;
+    background-color: #25a2c3;
+}
+
+footer h2{
+    color: white;
+    font-size: xx-large;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+footer a{
+    color: #c8e7f0;
+}
+
+.linea{
+    border-top: 1px solid white;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer p{
+    padding-bottom: 5%;
+}
+
+.pfinale{
+    padding-top: 5%;
+    padding-bottom: 15%;
+    font-size: medium;
+}

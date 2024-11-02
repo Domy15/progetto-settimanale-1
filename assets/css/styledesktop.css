@@ -4,10 +4,7 @@ header div{
 }
 
 .logo{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 40%;
+    width: 10%;
 }
 
 body{
@@ -17,10 +14,6 @@ body{
     line-height: 1.65;
     font-size: 1.2rem;
     font-weight: 500;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center; 
 }
 
 h2, h4{
@@ -35,8 +28,8 @@ h1{
     font-family: "Montserrat", sans-serif;;
     line-height: 1;
     font-weight: 700;
-    font-size: xx-large;
-    padding: 5%;
+    font-size: 200%;
+    padding: 2%;
 }
 
 .div1 button{
@@ -45,7 +38,7 @@ h1{
     background-color: #f04c2f;
     border-radius: 5px;
     border: none;
-    padding: 4% 10%;
+    padding: 1% 2%;
     font-size: 90%;
     font-weight: 700;
 }
@@ -53,17 +46,45 @@ h1{
 .div1{
     background-image: url(/assets/images/banner.jpg);
     background-size: cover;
-    padding: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+.div1 p{
+    padding-bottom: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .div2{
-    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.div2 div{
+    display: inline-block;
+}
+
+.immagine{
+    padding-left: 25%;
+    padding-right: 5%;
+}
+
+.scritte p{
+    padding-right: 25%;
 }
 
 .div3{
     color: white;
-    padding: 10%;
     background-color: #EE2200;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .div4{
@@ -72,7 +93,7 @@ h1{
 
 .div2 img{
     border-radius: 50%;
-    width: 80%;
+    width: 100%;
     margin-bottom: 5%;
 }
 
@@ -90,16 +111,16 @@ h1{
 .div3 h2{
     font-family: "Montserrat", sans-serif;;
     color: white;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     padding-top: 5%;
     font-weight: 700;
     font-size: xx-large;
 }
 
 .div3 blockquote{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-style: italic;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .div3 p{
@@ -111,6 +132,15 @@ h1{
     margin-top: 10%;
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    width: 31%;
+}
+
+.lastimg{
+    margin-right: -1%;
 }
 
 .lastimg{
@@ -150,7 +180,7 @@ footer a{
 
 .linea{
     border-top: 1px solid white;
-    width: 55%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -161,7 +191,23 @@ footer p{
 }
 
 .pfinale{
-    padding-top: 5%;
-    padding-bottom: 15%;
+    padding-top: 2%;
+    padding-bottom: 5%;
     font-size: medium;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contatti{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 2%;
+}
+
+.contatti h2{
+    font-size: 300%;
 }

@@ -10,12 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/stylemobile.css">
+    <link rel="stylesheet" href="assets/css/styledesktop.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="assets/images/logo.png" alt="logo epicode">
+        <div class=divlogo>
+            <img src="assets/images/logo.png" alt="logo epicode" class="logo">
         </div>
     </header>
     <main>
@@ -26,15 +26,19 @@
             <button type="button" id="partiamo">PARTIAMO!</button>
         </div>
         <div class="div2">
-            <h4>Tutti ti cercheranno</h4>
-            <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
-            <h4>Lavora dove vuoi</h4>
-            <p>Lavora da casa, in riva al mare o in montagna.</p>
-            <img src="assets/images/notebook.jpg">
-            <h4>Scegli il tuo ruolo</h4>
-            <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
-            <h4>Lavoro in libertà</h4>
-            <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
+            <div class="immagine">
+                <img src="assets/images/notebook.jpg">
+            </div>
+            <div class="scritte">
+                <h4>Tutti ti cercheranno</h4>
+                <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
+                <h4>Lavora dove vuoi</h4>
+                <p>Lavora da casa, in riva al mare o in montagna.</p>
+                <h4>Scegli il tuo ruolo</h4>
+                <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
+                <h4>Lavoro in libertà</h4>
+                <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
+            </div>       
         </div>
         <div class="div3">
             <h2>Epicode garantisce</h2>
@@ -43,12 +47,12 @@
                
         </div>
         <div class="div4">
-            <div>
+            <div class="foto1">
                 <img src="assets/images/foto1.jpg" alt="foto1">
                 <h4>Il tuo PC</h4>
                 <p>Se vuoi diventare developer è l’unico strumento di cui hai bisogno</p>
             </div>
-            <div>
+            <div class="foto2">
                 <img src="assets/images/foto2.jpg" alt="foto2">
                 <h4>Impara ora</h4>
                 <p>Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.</p>
@@ -61,7 +65,7 @@
         </div>
     </main>
     <footer>
-        <div>
+        <div class="contatti">
             <h2>Contattaci</h2>
             <i class="fa-solid fa-square-phone" style="color: #ffffff;"></i><a href="javascript:void(0)">(+39)11223456</a>
             <br>

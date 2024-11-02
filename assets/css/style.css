@@ -1,1 +1,106 @@
 /* Your styles here */
+header div{
+    background-color: black;
+    padding: 2rem;
+}
+
+header div img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+}
+
+body{
+    
+    color: #393e41;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center; 
+}
+
+h2, h4{
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+h1{
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;;
+    line-height: 1;
+    font-weight: 700;
+    font-size: xx-large;
+    padding: 5%;
+}
+
+.div1 button{
+    font-family: "Montserrat", sans-serif;;
+    color: white;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    border: none;
+    padding: 4% 10%;
+    font-size: 90%;
+    font-weight: 700;
+}
+
+.div1{
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+    padding: 10%;
+}
+
+.div2{
+    padding: 10%;
+}
+
+.div3{
+    color: white;
+    padding: 10%;
+    background-color: #EE2200;
+}
+
+.div4{
+    padding: 10%;
+}
+
+.div2 img{
+    border-radius: 50%;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.div2 p{
+    padding-bottom: 5%;
+}
+
+.div2 h4{
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;;
+    line-height: 2.5;
+    font-weight: 700;
+}
+
+.div3 h2{
+    font-family: "Montserrat", sans-serif;;
+    color: white;
+    padding: 5%;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.div3 blockquote{
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.div3 p{
+    font-size: 0.8rem;
+}
+
